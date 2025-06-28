@@ -1,0 +1,3 @@
+https://huggingface.co/datasets/w11wo/reddit_indonesia_sarcastic/tree/main
+https://github.com/skhotijah/using-lstm-for-context-based-approach-of-sarcasm-detection-in-twitter
+https://huggingface.co/w11wo/indobert-base-p1-reddit-indonesia-sarcastic
