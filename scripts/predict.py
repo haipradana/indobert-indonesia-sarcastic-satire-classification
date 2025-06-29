@@ -20,7 +20,9 @@ def model_predict(text: str):
 def predict():
     text = [
         "Dia saking pinternya gatau cara bagi waktu",
-        "Kamu penulis ya? pandai sekali mengarang cerita"
+        "Kamu penulis ya? pandai sekali mengarang cerita",
+        "kamu cerdas banget",
+        "dia emang cakep orangnya"
     ]
     for i, text in enumerate(text, 1):
         predicted_label = model_predict(text)
@@ -33,4 +35,6 @@ if __name__ == "__main__":
 Output:
 1. Text: 'Dia saking pinternya gatau cara bagi waktu' -> Predicted: sarcasm
 2. Text: 'Kamu penulis ya? pandai sekali mengarang cerita' -> Predicted: sarcasm
+3. Text: 'kamu cerdas banget' -> Predicted: not sarcasm
+4. Text: 'dia emang cakep orangnya' -> Predicted: not sarcasm
 '''
