@@ -43,7 +43,7 @@ The model was evaluated on the test set with the following metrics:
 
 ## Confusion Matrix
 <p align="center">
-    <img src="./evaluate/confusion_matrix.png" alt="Confusion Matrix" width="50%">
+    <img src="./evaluate/confusion_matrix.jpg" alt="Confusion Matrix" width="50%">
 </p>
 
 ### Training History
