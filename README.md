@@ -19,7 +19,7 @@ def predict(text: str):
     return 'sarcasm' if prediction == 1 else 'not sarcasm'
 
 # Example
-result = predict("Kamu penulis ya? pandai sekali mengarang cerita")
+result = predict("Beda, ini inovasi terbaru, Apple kan king of innovation")
 print(result) #output = sarcasm
 ```
 
