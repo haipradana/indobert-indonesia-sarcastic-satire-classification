@@ -41,6 +41,11 @@ The model was evaluated on the test set with the following metrics:
 | Recall     | 0.8286  |
 | F1-Score   | 0.8345  |
 
+## Confusion Matrix
+<p align="center">
+    <img src="./evaluate/confusion_matrix.png" alt="Confusion Matrix" width="50%">
+</p>
+
 ### Training History
 
 | Epoch | Train Loss | Val Loss | Accuracy | Precision | F1-Score | Recall  |
